@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Counter App</title>
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="img/profile.png" class="img-header">
+            <h1>Aplikasi Hitung Kendaraan Lalu Lintas</h1>
+            <p>Created by : <a href="https://www.instagram.com/gumilangtama/" style="text-decoration: none; color:black;">@gumilangtama</a></p>
+        </div>
+        <div class="container-body">
+            <div class="counter">
+                <center>
+                <img src="img/car.png" class="img-counter">
+                <h3 id="showCounter-1">0</h3>
+                <button id="counterEl-1" onclick="counter1()">Hitung</button>
+                <button id="saveEl-1" onclick="saveCounter1()">Simpan</button>
+                <h4 id="saveCounterEl-1">Hasil : </h4>
+                </center>
+            </div>
+            <div class="counter">
+                <center>
+                <img src="img/bike.png" class="img-counter">
+                <h3 id="showCounter-2">0</h3>
+                <button id="counterEl-2" onclick="counter2()">Hitung</button>
+                <button id="saveEl-2" onclick="saveCounter2()">Simpan</button>
+                <h4 id="saveCounterEl-2">Hasil : </h4>
+            </center>
+            </div>
+            <script src="index.js"></script>
+        </div>
+        <div class="footer">
+            <h1>Beta Version 0.0.1</h1>
+            <p>Powered By Vanilla Javascript</p>
+        </div>
+    </div>
+</body>
+</html>
